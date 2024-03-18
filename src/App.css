@@ -1,0 +1,147 @@
+body {
+  background-color: #4e7e7e;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App header {
+  background-color: #3a4d53;
+  height: 10vh;
+  min-height: 50px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 800px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #081a1a;
+}
+.userChat {
+  background-color: #3a4d53;
+  color: white;
+}
+.chatInfo {
+  margin-bottom: 10px;
+  color: white;
+  background-color: #597780;
+}
+.userChatInfo {
+  color: white;
+}
+
+input {
+  width: 90%;
+  max-width: 800px;
+  height: 5vh;
+  font-size: 1.5rem;
+  background: #fefefe;
+  color: #07553d;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  bottom: 0;
+  align-items: flex-end;
+}
+.currentUser p {
+  color: white;
+}
+button {
+  background-color: #081714;
+  border: none;
+  color: #65d78f;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+button:hover {
+  background-color: #4e7e7e;
+}
+
+.sign-in {
+  color: #081a1a;
+  background: #ffffff;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+messages {
+  background-color: cyan;
+  align-items: center;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background: #e6f5ee;
+  align-self: flex-end;
+}
+.received p {
+  background: #baf8f8;
+  color: white;
+}
+.message {
+  color: white;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.owner {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+/* Try adding a light and dark theme toggle button in the header,
+    then i will add both options in the css code as well
+    Just type Dark Mode in CSS in youtube and see the 4 min video
+*/
+
+/* Come talk to me before you go out to eat breakfast as i hv some box positions
+    to ask from you.
+    Basically i have figuredd out most of the work, but will need soome answers
+    from you be4 finishing, the rest won't even take 45 minutes.
+*/
+
+/* BTW i was not able to send text messages in the app, look into it,
+    i tested it by creating an account from my gmail in incognito mod
+*/
+
+/* The empty div tags are hindering the placement of send buttuon
+    and input text box
+*/
+
+/* Why are the messages meant to appear below the send button, shouldn't it 
+    be above the input bar???? 
+*/
